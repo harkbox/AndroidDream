@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+  <item>
+      <shape android:shape="oval">
+        <!--   设置shape为oval就是椭圆，当控件的高与宽一样时就是圆形-->
+          <!-- 这里设置了渐变  -->
+          <gradient android:startColor="@color/color_shadow"
+              android:endColor="@color/color_button_background"
+              android:centerX="@android:integer/config_longAnimTime"
+              android:centerY="@android:integer/config_longAnimTime"
+              android:angle="90">
+          </gradient>
+          <corners android:radius="50dp"></corners>
+      </shape>
+  </item>
+
+
+
+
+</layer-list>
